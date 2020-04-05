@@ -12,17 +12,31 @@ import java.io.IOException;
 public abstract class CustomConfiguration extends Configuration {
     private String filename;
     private FileConfiguration customConfig;
+
     public CustomConfiguration (TreasureHunt plugin, String name){
         super(plugin);
         this.filename = name;
-        createConfig(name);
+        createConfig();
     }
 
-    public void createConfig(String name) {
-        File file = new File(getPlugin().getDataFolder(), name + ".yml");
+    @Override
+    public void saveConfig() {
+        this.getPlugin().saveResource(filename + ".yml", false);
+
+    }
+
+    public void reloadConfig() {
+        createConfig();
+        loadConfig();
+        saveConfig();
+    }
+
+    @Override
+    public void createConfig() {
+        File file = new File(getPlugin().getDataFolder(), this.filename + ".yml");
         if (!file.exists()) {
             file.getParentFile().mkdirs();
-            getPlugin().saveResource(name + ".yml", false);
+            getPlugin().saveResource(this.filename + ".yml", false);
         }
 
         FileConfiguration config = new YamlConfiguration();

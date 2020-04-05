@@ -22,6 +22,7 @@ public abstract class Configuration {
 
     public void reloadConfig() {
         getPlugin().reloadConfig();
+        loadConfig();
         saveConfig();
     }
 

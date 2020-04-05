@@ -4,11 +4,7 @@ import treasurehunt.TreasureHunt;
 
 public class RewardsConfig extends CustomConfiguration {
     public RewardsConfig(TreasureHunt plugin, String name) {
-        super(plugin,name);
-    }
-
-    public void createConfig() {
-
+        super(plugin,"rewards");
     }
 
     public void loadConfig() {

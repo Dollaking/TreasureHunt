@@ -1,0 +1,5 @@
+rewards:
+  1:
+    type: item
+    amount: 4
+    item: COBBLESTONE

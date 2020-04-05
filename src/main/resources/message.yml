@@ -1,0 +1,10 @@
+############################################################
+# +------------------------------------------------------+ #
+# |              Message Configuration File              | #
+# +------------------------------------------------------+ #
+############################################################
+
+noPermission: "You do not have permission to do this!"
+chestFound: "{PLAYER} found a treasure chest at x:{x} y:{y} z:{z}"
+chestDespawned: "The treasure chest at x:{x} y:{y} z:{z} have despawned!"
+chestSpawned: "A treasure at x:{x} y:{y} z:{z} have spawned"
