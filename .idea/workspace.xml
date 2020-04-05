@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02d4a62c-d59f-48f2-98af-3858d5154ae5" name="Default Changelist" comment="" />
+    <list default="true" id="02d4a62c-d59f-48f2-98af-3858d5154ae5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/AvailableChestsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/CustomConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/TreasureHunt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/TreasureHunt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/chests/RandomLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/chests/RandomLocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/AvaliableChestsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/GeneralConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/DefaultConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/MessageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/MessageConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/RewardsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/RewardsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/TopPlayerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treasurehunt/configuration/TopPlayerConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +27,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,6 +46,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,9 +65,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1245" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1586017267414">
+    <state x="1032" y="177" key="#Project_Structure" timestamp="1586053967542">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586017267414" />
+    <state x="1032" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586053967542" />
+    <state x="1245" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1586058037828">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586058037828" />
+    <state x="623" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586049685310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586049685310" />
   </component>
 </project>

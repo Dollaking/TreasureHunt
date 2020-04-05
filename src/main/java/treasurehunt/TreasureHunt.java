@@ -4,10 +4,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 import treasurehunt.configuration.*;
 
 public class TreasureHunt extends JavaPlugin {
-    private GeneralConfig generalConfig;
+    private DefaultConfig defaultConfig;
     private RewardsConfig rewardConfig;
     private MessageConfig messageConfig;
-    private AvaliableChestsConfig avaliableChestConfig;
+    private AvailableChestsConfig avaliableChestConfig;
     private TopPlayerConfig topPlayerConfig;
 
     @Override
@@ -24,12 +24,12 @@ public class TreasureHunt extends JavaPlugin {
         return 0;
     }
 
-    public GeneralConfig getGeneralConfig() {
-        return generalConfig;
+    public DefaultConfig getDefaultConfig() {
+        return defaultConfig;
     }
 
-    public void setGeneralConfig(GeneralConfig generalConfig) {
-        this.generalConfig = generalConfig;
+    public void setDefaultConfig(DefaultConfig defaultConfig) {
+        this.defaultConfig = defaultConfig;
     }
 
     public RewardsConfig getRewardConfig() {
@@ -48,11 +48,11 @@ public class TreasureHunt extends JavaPlugin {
         this.messageConfig = messageConfig;
     }
 
-    public AvaliableChestsConfig getAvaliableChestConfig() {
+    public AvailableChestsConfig getAvaliableChestConfig() {
         return avaliableChestConfig;
     }
 
-    public void setAvaliableChestConfig(AvaliableChestsConfig avaliableChestConfig) {
+    public void setAvaliableChestConfig(AvailableChestsConfig avaliableChestConfig) {
         this.avaliableChestConfig = avaliableChestConfig;
     }
 

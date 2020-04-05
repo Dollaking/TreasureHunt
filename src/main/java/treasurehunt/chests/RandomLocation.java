@@ -2,11 +2,11 @@ package treasurehunt.chests;
 
 import org.bukkit.Location;
 import org.bukkit.World;
-import treasurehunt.configuration.GeneralConfig;
+import treasurehunt.configuration.DefaultConfig;
 
 public class RandomLocation {
-    private GeneralConfig config;
-    public RandomLocation (GeneralConfig config){
+    private DefaultConfig config;
+    public RandomLocation (DefaultConfig config){
         this.config = config;
     }
 

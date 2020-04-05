@@ -1,0 +1,22 @@
+############################################################
+# +------------------------------------------------------+ #
+# |              TreasureHunt Configuration File         | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Area where you want the TreasureChest to be spawn
+location:
+  maxX: 2000
+  minX: -2000
+  minZ: 2000
+  maxZ: -2000
+
+# Worlds that the chest can spawn in
+spawnableWorlds:
+  - world
+  - resource
+
+# Regions where the chest will not spawn
+bannedRegions:
+  worldGuard: true
+  towny: true

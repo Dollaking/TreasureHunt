@@ -1,8 +1,14 @@
 package treasurehunt.configuration;
 
-public class RewardsConfig extends Configuration {
-    public RewardsConfig(String name) {
-        super(name);
+import treasurehunt.TreasureHunt;
+
+public class RewardsConfig extends CustomConfiguration {
+    public RewardsConfig(TreasureHunt plugin, String name) {
+        super(plugin,name);
+    }
+
+    public void createConfig() {
+
     }
 
     public void loadConfig() {

@@ -2,8 +2,8 @@ package treasurehunt.configuration;
 
 import treasurehunt.TreasureHunt;
 
-public class TopPlayerConfig extends CustomConfiguration {
-    public TopPlayerConfig(TreasureHunt plugin, String name) {
+public class AvailableChestsConfig extends CustomConfiguration{
+    public AvailableChestsConfig(TreasureHunt plugin, String name){
         super(plugin, name);
     }
 
